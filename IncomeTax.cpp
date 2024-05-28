@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int count;
     std::cin >> count;
