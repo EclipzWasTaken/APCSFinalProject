@@ -3,11 +3,12 @@
 int main()
 {
     int count;
-    std::cin >> count;
+    std::cin >> count; // Read the number of test cases
     for (int i = 0; i < count; i++)
     {
         double x;
-        std::cin >> x;
+        std::cin >> x; // Read the income
+        // Calculate the tax based on the income
         if (x <= 11000)
         {
             x *= .1;
@@ -36,7 +37,7 @@ int main()
         {
             x *= .37;
         }
-        std::cout << (int) floor(x + 0.5) << std::endl;
+        std::cout << (int) floor(x + 0.5) << std::endl; // Output the tax
     }
-    return 0;
+    return 0; // Exit the program
 }
